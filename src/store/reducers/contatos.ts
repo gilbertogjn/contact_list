@@ -39,12 +39,6 @@ const initialState: ContatosState = {
     },
     {
       id: 6,
-      nome: 'Victor Abdelnour',
-      email: 'victoro@gmail.com',
-      telefone: '(69) 99950-4007'
-    },
-    {
-      id: 7,
       nome: 'Neto Gurgel',
       email: 'neto@gmail.com',
       telefone: '(69) 99950-4008'

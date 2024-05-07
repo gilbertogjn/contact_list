@@ -1,10 +1,9 @@
-import styled from 'styled-components'
-import vars from '../../styles/vars'
+import styled from "styled-components";
 
 export const ContainerNovoContato = styled.div`
   display: flex;
   justify-content: center;
-`
+`;
 
 export const FormContainer = styled.form`
   display: flex;
@@ -20,26 +19,26 @@ export const FormContainer = styled.form`
   label {
     font-size: 14px;
   }
-`
+
+  input {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+`;
 
 export const Titulo = styled.h2`
   font-size: 22px;
   font-weight: bold;
   margin-left: 8px;
-`
-
-export const Campo = styled.input`
-  padding: 8px;
-  border-radius: 8px;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.4);
-`
+`;
 
 export const ContainerBotoes = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
-`
+`;
 
 export const HeaderAddContato = styled.div`
   display: flex;
@@ -53,4 +52,4 @@ export const HeaderAddContato = styled.div`
     font-size: 28px;
     cursor: pointer;
   }
-`
+`;
